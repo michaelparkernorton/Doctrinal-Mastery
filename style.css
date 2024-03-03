@@ -35,5 +35,18 @@ body {
 }
 audio {
   width: 100%;
-  outline: none;
+}
+
+/* Medium devices (1/2laptops/desktops, 500px and up) */
+@media only screen and (min-width: 500px) {
+  .scriptureBox {
+    height: 58vh;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .scriptureBox {
+    height: 25vh;
+  }
 }
