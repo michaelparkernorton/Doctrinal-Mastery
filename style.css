@@ -7,13 +7,16 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.scripture {
-  width: 80%;
+.scriptureCard {
+  width: 90%;
   margin: 5%;
+}
+
+.scriptureBox {
   padding: 5%;
   background-color: #00a2e8;
   color: white;
-  border-radius: 1rem;
+  border-radius: 1rem 1rem 0 0;
 }
 
 .reference {
@@ -26,6 +29,13 @@ body {
 .reference,
 .text {
   margin-bottom: 20px;
+}
+
+.audioBox {
+  padding: 5%;
+  width: 90%;
+  background-color: #f1f3f4;
+  border-radius: 0 0 1rem 1rem;
 }
 
 audio {

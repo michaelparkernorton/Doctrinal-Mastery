@@ -10,28 +10,44 @@ const referenceText = `${scripture.Book} ${scripture.Chapter}:${scripture.StartV
 title.textContent = referenceText;
 
 // Create a scripture card
-const newScripture = document.createElement("div");
+const scriptureCard = document.createElement("div");
 
-// and give it a reference, text, and audio
+// Give is a sciptureBox and audioBox
+const scriptureBox = document.createElement("div");
+const audioBox = document.createElement("div");
+
+//SCRIPTURE BOX
+// Create a reference and text for scripture box
 const reference = document.createElement("h1");
 const text = document.createElement("p");
-const audio = document.createElement("audio");
 
 // add content to reference, text, and audio source
 reference.textContent = referenceText;
 text.textContent = scripture.Text;
+
+// Add reference and text to scripture box
+scriptureBox.appendChild(reference);
+scriptureBox.appendChild(text);
+
+//AUDIO BOX
+// Create audio for audio box
+const audio = document.createElement("audio");
+
+// Add controls and src for audio
 audio.controls = true;
 audio.src = scripture.Audio;
 
-// add the text node to the newly created div
-newScripture.appendChild(reference);
-newScripture.appendChild(text);
-newScripture.appendChild(audio);
+// add reference, text, and audio to Scripture
+audioBox.appendChild(audio);
+scriptureCard.appendChild(scriptureBox);
+scriptureCard.appendChild(audioBox);
 
 // add classes
 reference.classList.add("reference");
 text.classList.add("text");
-newScripture.classList.add("scripture");
+audioBox.classList.add("audioBox");
+scriptureCard.classList.add("scriptureCard");
+scriptureBox.classList.add("scriptureBox");
 
 // add scripture to body
-document.body.appendChild(newScripture);
+document.body.appendChild(scriptureCard);
