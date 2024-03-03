@@ -1,4 +1,6 @@
 import scriptures from "../JSON/portBr.json" assert { type: "json" };
+// Scripture list
+// https://www.churchofjesuschrist.org/study/manual/doctrinal-mastery-core-document-2023/doctrinal-mastery-passages-and-key-phrases?lang=por
 
 const scripture = scriptures[0];
 
