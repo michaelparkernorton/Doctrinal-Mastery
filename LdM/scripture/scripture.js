@@ -17,30 +17,32 @@ const scriptureBox = document.createElement("div");
 const audioBox = document.createElement("div");
 
 //SCRIPTURE BOX
-// Create a reference and text for scripture box
-const reference = document.createElement("h1");
-const text = document.createElement("p");
+	// Create a reference and text for scripture box
+	const reference = document.createElement("h1");
+	const text = document.createElement("p");
 
-// add content to reference, text, and audio source
-reference.textContent = referenceText;
-text.textContent = scripture.Text;
+	// add content to reference, text, and audio source
+	reference.textContent = referenceText;
+	text.textContent = scripture.Text;
 
-// Add reference and text to scripture box
-scriptureBox.appendChild(reference);
-scriptureBox.appendChild(text);
+	// Add reference and text to scripture box
+	scriptureBox.appendChild(reference);
+	scriptureBox.appendChild(text);
 
 //AUDIO BOX
 // Create audio for audio box
-const audio = document.createElement("audio");
+	const audio = document.createElement("audio");
 
-// Add controls and src for audio
-audio.controls = true;
-audio.src = scripture.Audio;
+	// Add controls and src for audio
+	audio.controls = true;
+	audio.src = scripture.Audio;
 
-// add reference, text, and audio to Scripture
-audioBox.appendChild(audio);
-scriptureCard.appendChild(scriptureBox);
-scriptureCard.appendChild(audioBox);
+	// add audio to audio box
+		audioBox.appendChild(audio);
+
+// add scripture box and audio box to Scripture
+	scriptureCard.appendChild(scriptureBox);
+	scriptureCard.appendChild(audioBox);
 
 // add classes
 reference.classList.add("reference");
