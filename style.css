@@ -17,11 +17,11 @@ body {
 }
 
 .reference {
-	font-size: 50px;
+  font-size: 50px;
 }
 
 .text {
-	font-size: 30px;
+  font-size: 30px;
 }
 .reference,
 .text {
@@ -29,5 +29,6 @@ body {
 }
 
 audio {
-  border-radius: 5px;
+  width: 100%;
+  outline: none;
 }
