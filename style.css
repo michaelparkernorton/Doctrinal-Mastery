@@ -4,14 +4,10 @@
   margin: 0;
 }
 body {
-  display: flex;
   font-family: "Roboto", sans-serif;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 .scripture {
-  width: 100%;
+  width: 80%;
   margin: 5%;
   padding: 5%;
   background-color: #00a2e8;
