@@ -6,12 +6,6 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-h1 {
-  font-size: 50px;
-}
-p {
-  font-size: 40px;
-}
 
 .scripture {
   width: 80%;
@@ -22,6 +16,13 @@ p {
   border-radius: 1rem;
 }
 
+.reference {
+	font-size: 50px;
+}
+
+.text {
+	font-size: 30px;
+}
 .reference,
 .text {
   margin-bottom: 20px;
