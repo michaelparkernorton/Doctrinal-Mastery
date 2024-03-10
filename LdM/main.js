@@ -21,10 +21,43 @@ scriptures.forEach((scripture) => {
   text.classList.add("text");
   newScripture.classList.add("scripture");
 
+  const referenceClass =
+    "a" +
+    scripture.Book.replace(/\s/g, "") +
+    scripture.Chapter +
+    scripture.StartVerse;
+  text.classList.add(referenceClass);
+  newScripture.classList.add(referenceClass);
+
   // add scripture to body
   document.body.appendChild(newScripture);
 
-  // // add the newly created element and its content into the DOM
-  // const currentDiv = document.getElementById("div1");
-  // document.body.insertBefore(newDiv, currentDiv);
+  reference.addEventListener("click", () => displayScripture(referenceClass));
+
 });
+
+const scriptureElements = document.querySelectorAll(".scripture");
+
+function displayScripture(reference) {
+  scriptureElements.forEach((scriptureElement) => {
+    scriptureElement.style.display = "none";
+  });
+  const selector = "." + reference;
+  const displayScripture = document.querySelectorAll(selector);
+  displayScripture.forEach((element) => {
+    element.style.display = "block";
+  });
+}
+
+const book = document.querySelector(".LdM");
+const texts = document.querySelectorAll(".text");
+book.addEventListener("click", () => displayAllScriptures());
+
+function displayAllScriptures() {
+  texts.forEach((text) => {
+    text.style.display = "none";
+  });
+  scriptureElements.forEach((scriptureElement) => {
+    scriptureElement.style.display = "block";
+  });
+}
