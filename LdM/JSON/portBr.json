@@ -5,7 +5,7 @@
     "StartVerse": "7",
     "EndVerse": null,
     "Text": "7 E aconteceu que eu, Néfi, disse a meu pai: Eu irei e cumprirei as ordens do Senhor, porque sei que o Senhor nunca dá ordens aos filhos dos homens sem antes preparar um caminho pelo qual suas ordens possam ser cumpridas.",
-		"Audio": "../../Assets/Audio/LdM/1NEPHI-3-7-POR.mp3"
+    "Audio": "../../Assets/Audio/LdM/1NEPHI-3-7-POR.mp3"
   },
   {
     "Book": "2 Néfi",
@@ -13,7 +13,7 @@
     "StartVerse": "25",
     "EndVerse": null,
     "Text": "25 Adão caiu para que os homens existissem; e os homens existem para que tenham alegria.",
-		"Audio": "../../Assets/Audio/LdM/2NEPHI-2-25-POR.mp3"
+    "Audio": "../../Assets/Audio/LdM/2NEPHI-2-25-POR.mp3"
   },
   {
     "Book": "2 Néfi",
@@ -21,6 +21,14 @@
     "StartVerse": "27",
     "EndVerse": null,
     "Text": "27 Portanto, os homens são livres segundo a carne; e todas as coisas de que necessitam lhes são dadas. E são livres para escolher a liberdade e a vida eterna por meio do grande Mediador de todos os homens, ou para escolherem o cativeiro e a morte, de acordo com o cativeiro e o poder do diabo; pois ele procura tornar todos os homens tão miseráveis como ele próprio.",
-		"Audio": "../../Assets/Audio/LdM/2NEPHI-2-27-POR.mp3"
+    "Audio": "../../Assets/Audio/LdM/2NEPHI-2-27-POR.mp3"
+  },
+  {
+    "Book": "2 Néfi",
+    "Chapter": "26",
+    "StartVerse": "33",
+    "EndVerse": null,
+    "Text": "33 Pois nenhuma destas iniquidades vem do Senhor, porque ele faz o que é bom para os filhos dos homens; e não faz coisa alguma que não seja clara para os filhos dos homens; e convida todos a virem a ele e a participarem de sua bondade; e não repudia quem quer que o procure, negro e branco, escravo e livre, homem e mulher; e lembra-se dos pagãos; e todos são iguais perante Deus, tanto judeus como gentios.",
+    "Audio": "../../Assets/Audio/LdM/2NEPHI-26-33-POR.mp3"
   }
 ]
