@@ -1,14 +1,14 @@
 [
   {
-    "Book": "1 Néfi",
+    "Book": "1 Nephi",
     "Chapter": "3",
     "StartVerse": "7",
     "EndVerse": null,
-    "Text": "7 E aconteceu que eu, Néfi, disse a meu pai: Eu irei e cumprirei as ordens do Senhor, porque sei que o Senhor nunca dá ordens aos filhos dos homens sem antes preparar um caminho pelo qual suas ordens possam ser cumpridas.",
+    "Text": "7 E aconteceu que eu, Nephi, disse a meu pai: Eu irei e cumprirei as ordens do Senhor, porque sei que o Senhor nunca dá ordens aos filhos dos homens sem antes preparar um caminho pelo qual suas ordens possam ser cumpridas.",
     "Audio": "../../Assets/Audio/LdM/1NEPHI-3-7-POR.mp3"
   },
   {
-    "Book": "2 Néfi",
+    "Book": "2 Nephi",
     "Chapter": "2",
     "StartVerse": "25",
     "EndVerse": null,
@@ -16,7 +16,7 @@
     "Audio": "../../Assets/Audio/LdM/2NEPHI-2-25-POR.mp3"
   },
   {
-    "Book": "2 Néfi",
+    "Book": "2 Nephi",
     "Chapter": "2",
     "StartVerse": "27",
     "EndVerse": null,
@@ -24,20 +24,20 @@
     "Audio": "../../Assets/Audio/LdM/2NEPHI-2-27-POR.mp3"
   },
   {
-    "Book": "2 Néfi",
+    "Book": "2 Nephi",
     "Chapter": "26",
     "StartVerse": "33",
     "EndVerse": null,
     "Text": "33 Pois nenhuma destas iniquidades vem do Senhor, porque ele faz o que é bom para os filhos dos homens; e não faz coisa alguma que não seja clara para os filhos dos homens; e convida todos a virem a ele e a participarem de sua bondade; e não repudia quem quer que o procure, negro e branco, escravo e livre, homem e mulher; e lembra-se dos pagãos; e todos são iguais perante Deus, tanto judeus como gentios.",
     "Audio": "../../Assets/Audio/LdM/2NEPHI-26-33-POR.mp3"
   }
-  ,
+	,
   {
-    "Book": "2 Néfi",
+    "Book": "2 Nephi",
     "Chapter": "28",
     "StartVerse": "30",
     "EndVerse": null,
-    "Text": "30 Pois eis que assim diz o Senhor Deus: Darei aos filhos dos homens linha sobre linha, preceito sobre preceito, um pouco aqui e um pouco ali; e abençoados os que dão ouvidos aos meus preceitos e escutam os meus conselhos, porque obterão sabedoria; pois a quem recebe darei mais; e dos que disserem: Temos o suficiente, destes será tirado até mesmo o que tiverem.",
-    "Audio": "../../Assets/Audio/LdM/2NEPHI-28-30-POR.mp3"
+    "Text": "30 For behold, thus saith the Lord God: I will give unto the children of men line upon line, precept upon precept, here a little and there a little; and blessed are those who hearken unto my precepts, and lend an ear unto my counsel, for they shall learn wisdom; for unto him that receiveth I will give more; and from them that shall say, We have enough, from them shall be taken away even that which they have..",
+    "Audio": "../../Assets/Audio/BoM/2NEPHI-28-30-ENG.mp3"
   }
 ]

@@ -2,7 +2,7 @@ import scriptures from "../JSON/portBr.json" assert { type: "json" };
 // Scripture list
 // https://www.churchofjesuschrist.org/study/manual/doctrinal-mastery-core-document-2023/doctrinal-mastery-passages-and-key-phrases?lang=por
 
-const scripture = scriptures[3];
+const scripture = scriptures[4];
 
 // Update Title of Page with Scripture Reference
 const title = document.querySelector("title");
